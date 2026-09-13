@@ -7,6 +7,7 @@ from PIL import Image
 st.set_page_config(page_title="Portfólio de Vendas", layout="wide")
 
 #Cabeçalho Principal
+st.title("Marcant Vendas")
 st.title("🛍️ Catálogo de Produtos")
 st.caption("Confira as melhores ofertas e entre em contato direto pelo WhatsApp!")
 st.divider()
