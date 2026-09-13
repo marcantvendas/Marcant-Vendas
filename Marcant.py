@@ -13,17 +13,17 @@ st.divider()
 
 #Barra Lateral (Filtros)
 st.sidebar.header("Filtros")
-categoria = st.sidebar.selectbox("Categoria", ["Todos", "10''", "12''", "Cutelos"])
+categoria = st.sidebar.selectbox("Categoria", ["Todos", "10''", "12''", "Cutelos","Canivetes"])
 preco_max = st.sidebar.slider("Preço Máximo (R$)", 100, 300, 500)
 
 #Dados de exemplo dos produtos
 produtos = [
     {"nome": "Cervinho língua de chimango chifre de cervo legítimo importado 10", "categoria": "10''", "preco": 200, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FOb%2B79iGkOcrjBpXJiI0Kpw%3D%3D.jpg?alt=media"},
     {"nome": "Chimango carbono 5mm 10 cabo madeira", "categoria": "10''", "preco": 150, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FXlrCYUhjzwcIdvhc0A7pQ%3D%3D.jpg?alt=media"},
-    {"nome": "Faca de clubes linha nova 10 Inox 4mm", "preco": 180, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FjsEhRNBSPKKS58JxrVBEvg%3D%3D.jpg?alt=media"},
-    {"nome": "Faca Rambo rústica 10 Carbono 5mm", "preco": 190, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2F%2BzcXayyHw2L8b6chjuqPGw%3D%3D.jpg?alt=media"},
-    {"nome": "Bowie fosfatizada cabo osso e madeira 4mm 12", "preco": 210, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2Fa3N17WKoSk7HY0CASRyRTA%3D%3D.jpg?alt=media"},
-
+    {"nome": "Faca de clubes linha nova 10 Inox 4mm", "categoria": "10''", "preco": 180, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FjsEhRNBSPKKS58JxrVBEvg%3D%3D.jpg?alt=media"},
+    {"nome": "Faca Rambo rústica 10 Carbono 5mm", "categoria": "10''", "preco": 190, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2F%2BzcXayyHw2L8b6chjuqPGw%3D%3D.jpg?alt=media"},
+    {"nome": "Bowie fosfatizada cabo osso e madeira 4mm 12", "categoria": "12''", "preco": 210, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2Fa3N17WKoSk7HY0CASRyRTA%3D%3D.jpg?alt=media"},
+    {"nome": "Canivete Fosfatizado cabo madeira", "categoria": "Canivetes", "preco": 72, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FaLwkW6JLKnAgTycIrLI0qQ%3D%3D.jpg?alt=media"},
 ]
 
 #Filtragem dos produtos
