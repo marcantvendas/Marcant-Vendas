@@ -25,7 +25,6 @@ produtos = [
     {"nome": "Facão Bowie fosfatizada 12'' - Cabo osso e madeira 4mm", "categoria": "12''", "preco": 210, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2Fa3N17WKoSk7HY0CASRyRTA%3D%3D.jpg?alt=media"},
     {"nome": "Canivete Fosfatizado - Cabo madeira", "categoria": "Canivetes", "preco": 72, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FaLwkW6JLKnAgTycIrLI0qQ%3D%3D.jpg?alt=media"},
     {"nome": "Canivete Suíço com 17 funções", "categoria": "Canivetes", "preco": 60, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FB%2BUlfkIDx0X88a7fKlWX4w%3D%3D.jpg?alt=media"},
-    {"nome": "Picanheira com desenho 10'' inox cabo resina e madeira", "categoria": "10''", "preco": 200, "img": https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FPbhTwzNClf21THuCV45Ow%3D%3D.jpg?alt=media"},
 ]
 
 #Filtragem dos produtos
