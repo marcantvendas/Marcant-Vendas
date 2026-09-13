@@ -7,12 +7,12 @@ from PIL import Image
 st.set_page_config(page_title="Portfólio de Vendas", layout="wide")
 
 #Cabeçalho Principal
-st.title("Marcant Vendas")
 st.title("🛍️ Catálogo de Produtos")
 st.caption("Confira as melhores ofertas e entre em contato direto pelo WhatsApp!")
 st.divider()
 
 #Barra Lateral (Filtros)
+st.title("Marcant Vendas")
 st.sidebar.header("Filtros")
 categoria = st.sidebar.selectbox("Categoria", ["Todos", "10''", "12''", "Cutelos","Canivetes"])
 preco_max = st.sidebar.slider("Preço Máximo (R$)", 100, 300, 500)
