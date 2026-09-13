@@ -18,12 +18,14 @@ preco_max = st.sidebar.slider("Preço Máximo (R$)", 100, 300, 500)
 
 #Dados de exemplo dos produtos
 produtos = [
-    {"nome": "Cervinho língua de chimango chifre de cervo legítimo importado 10", "categoria": "10''", "preco": 200, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FOb%2B79iGkOcrjBpXJiI0Kpw%3D%3D.jpg?alt=media"},
-    {"nome": "Chimango carbono 5mm 10 cabo madeira", "categoria": "10''", "preco": 150, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FXlrCYUhjzwcIdvhc0A7pQ%3D%3D.jpg?alt=media"},
-    {"nome": "Faca de clubes linha nova 10 Inox 4mm", "categoria": "10''", "preco": 180, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FjsEhRNBSPKKS58JxrVBEvg%3D%3D.jpg?alt=media"},
-    {"nome": "Faca Rambo rústica 10 Carbono 5mm", "categoria": "10''", "preco": 190, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2F%2BzcXayyHw2L8b6chjuqPGw%3D%3D.jpg?alt=media"},
-    {"nome": "Bowie fosfatizada cabo osso e madeira 4mm 12", "categoria": "12''", "preco": 210, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2Fa3N17WKoSk7HY0CASRyRTA%3D%3D.jpg?alt=media"},
-    {"nome": "Canivete Fosfatizado cabo madeira", "categoria": "Canivetes", "preco": 72, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FaLwkW6JLKnAgTycIrLI0qQ%3D%3D.jpg?alt=media"},
+    {"nome": "Faca Chimango 10'' cervinho chifre de cervo, "categoria": "10''", "preco": 200, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FOb%2B79iGkOcrjBpXJiI0Kpw%3D%3D.jpg?alt=media"},
+    {"nome": "Faca chimango 10'' carbono 5mm - Cabo de madeira", "categoria": "10''", "preco": 150, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FXlrCYUhjzwcIdvhc0A7pQ%3D%3D.jpg?alt=media"},
+    {"nome": "Faca de clubes 10'' Inox 4mm", "categoria": "10''", "preco": 180, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FjsEhRNBSPKKS58JxrVBEvg%3D%3D.jpg?alt=media"},
+    {"nome": "Faca Rambo rústica 10'' Carbono 5mm", "categoria": "10''", "preco": 190, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2F%2BzcXayyHw2L8b6chjuqPGw%3D%3D.jpg?alt=media"},
+    {"nome": "Facão Bowie fosfatizada 12'' - Cabo osso e madeira 4mm", "categoria": "12''", "preco": 210, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2Fa3N17WKoSk7HY0CASRyRTA%3D%3D.jpg?alt=media"},
+    {"nome": "Canivete Fosfatizado - Cabo madeira", "categoria": "Canivetes", "preco": 72, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FaLwkW6JLKnAgTycIrLI0qQ%3D%3D.jpg?alt=media"},
+    {"nome": "Canivete Suíço com 17 funções", "categoria": "Canivetes", "preco": 60, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FB%2BUlfkIDx0X88a7fKlWX4w%3D%3D.jpg?alt=media"},
+    {"nome": "Picanheira com desenho 10'' inox cabo resina e madeira", "categoria": "10''", "preco": 200, "img": https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FPbhTwzNClf21THuCV45Ow%3D%3D.jpg?alt=media"},
 ]
 
 #Filtragem dos produtos
