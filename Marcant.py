@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(page_title="Portfólio de Vendas", layout="wide")
 
 #Cabeçalho Principal
-st.title("🛍️ Catálogo de Produtos - Marcant")
+st.title("🛍️ Catálogo de Produtos")
 st.caption("Confira as melhores ofertas e entre em contato direto pelo WhatsApp!")
 st.divider()
 
@@ -26,6 +26,8 @@ produtos = [
     {"nome": "Canivete Fosfatizado - Cabo madeira", "categoria": "Canivetes", "preco": 72, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FaLwkW6JLKnAgTycIrLI0qQ%3D%3D.jpg?alt=media"},
     {"nome": "Canivete Suíço com 17 funções", "categoria": "Canivetes", "preco": 60, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FB%2BUlfkIDx0X88a7fKlWX4w%3D%3D.jpg?alt=media"},
     {"nome": "Picanheira com desenho 10'' inox cabo resina e madeira", "categoria": "10''", "preco": 200, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2FPbhTwzNClf21THuCV45Ow%3D%3D.jpg?alt=media"},
+    {"nome": "Picanheira 10'' - Cabo com cápsula", "categoria": "10''", "preco": 200, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2Fy8rDzjK5OWjg4Sd%2BLFdTJQ%3D%3D.jpg?alt=media"},
+    {"nome": "Picanheira 10'' Inox - Cabo pata de cavalo, osso e madeira", "categoria": "10''", "preco": 200, "img": "https://images-cdn.kyte.site/v0/b/kyte-7c484.appspot.com/o/Mi1P3JDjxoaWcMpELIf35cnXlm82%2F6toHoRi1PmX8n4vV4%2BJLtw%3D%3D.jpg?alt=media"},
     
 ]
 
