@@ -60,3 +60,4 @@ for idx, prod in enumerate(produtos_filtrados):
 st.markdown("---")
 st.subheader("📬 Fale Conosco")
 st.write("Dúvidas sobre entregas ou pagamento? Envie uma mensagem diretamente para nossa equipe.")
+st.write("📧 marcantvendas@gmail.com ou 💬 WhatsApp: (24) 99994-1546")
