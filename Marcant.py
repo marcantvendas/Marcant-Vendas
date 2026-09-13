@@ -14,7 +14,7 @@ st.divider()
 #Barra Lateral (Filtros)
 st.sidebar.header("Marcant Vendas")
 st.sidebar.header("Filtros")
-categoria = st.sidebar.selectbox("Categoria", ["Todos", "Mais vendidos", "10''", "12''", "Cutelos", "Canivetes"])
+categoria = st.sidebar.selectbox("Categoria", ["Todos", "10''", "12''", "Cutelos", "Canivetes", "⭐ Mais vendidos"])
 preco_max = st.sidebar.slider("Preço Máximo (R$)", 100, 300, 500)
 
 foto_lateral = Image.open("marcos.jpeg")
@@ -41,7 +41,7 @@ produtos_filtrados = [
     if (
         categoria == "Todos"
         or p["categoria"] == categoria
-        or (categoria == "Mais vendidos" and p.get("mais_vendido", False))
+        or (categoria == "⭐ Mais vendidos" and p.get("mais_vendido", False))
     )
     and p["preco"] <= preco_max
 ]
