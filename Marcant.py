@@ -13,6 +13,7 @@ st.divider()
 
 #Barra Lateral (Filtros)
 st.sidebar.header("Marcant Vendas")
+foto_lateral = Image.open("marcos.jpeg")
 st.sidebar.header("Filtros")
 categoria = st.sidebar.selectbox("Categoria", ["Todos", "10''", "12''", "Cutelos","Canivetes"])
 preco_max = st.sidebar.slider("Preço Máximo (R$)", 100, 300, 500)
